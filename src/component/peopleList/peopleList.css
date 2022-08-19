@@ -12,3 +12,9 @@ span.loading {
     margin-left: 40px;
     font-size: 13px;
 }
+
+h2.empty_data {
+    text-align: center;
+    font-size: 11px;
+    color: red;
+}

@@ -47,6 +47,14 @@ function PeopleList() {
     return null;
   }
 
+  const showEmptyData = () => {
+    if (!loading && (!peopleListData || !peopleListData.list)) {
+      return <h2 className={"empty_data"}>Please be sure that the Backend server running on port 3005. This warning should be removed on production</h2>;
+    }
+
+    return null;
+  }
+
 
   const showTableInfo = () => {
     if (!peopleListData || !peopleListData.list) {
@@ -106,6 +114,7 @@ function PeopleList() {
   return (
     <div className="people_list">
       <h2 className={"table_header"}>You can see all the Star Wars character here. Also you can search name</h2>
+      {showEmptyData()}
       {showTableInfo()}
       <Pagination
         goToPage={(page: any) => changePage(page)}
