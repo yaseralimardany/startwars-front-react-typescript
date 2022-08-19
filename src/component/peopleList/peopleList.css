@@ -1,0 +1,14 @@
+.people_list_data {
+    text-align: center;
+}
+
+table.people_list_table {
+    display: inline-block;
+    border: none;
+    margin-top: 20px;
+}
+
+span.loading {
+    margin-left: 40px;
+    font-size: 13px;
+}

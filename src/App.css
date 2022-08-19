@@ -1,0 +1,43 @@
+h1.page_header {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2.table_header {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.search_container {
+    text-align: center;
+}
+
+.search_container input {
+    width: 320px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.pagination_container {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px 30px 0px;
+}
+
+span.pagination_item {
+    cursor: pointer;
+    color: green;
+    margin: 0px 10px 0px 10px;
+}
+
+span.pagination_item.total_count {
+    margin-left: 50px;
+}
+
+span.pagination_item.title,
+span.pagination_item.current,
+span.pagination_item.total_count {
+    color: black;
+    cursor: default;
+}
